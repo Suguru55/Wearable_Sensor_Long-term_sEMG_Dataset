@@ -1,6 +1,6 @@
 # Wearable_Sensor_Long-term_sEMG_Dataset
 
-I'm submitting this study to Sensors<br />
+I'm submitting this study to XXX<br />
 Now, we uploaded only S01 data, but will upload all data after paper acceptance.<br /><br />
 
 You can see very simple online processing for controlling 3D graphics using by this dataset from <a href="https://drive.google.com/file/d/1X7LKOcaBsfopQSHAjnUlRBB9HMoG0Lmt/view?usp=sharing" target="_blank">here (online_processing)</a>.<br />
