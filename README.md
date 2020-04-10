@@ -45,6 +45,6 @@ This project has four folders:<br />
    this folder will store all results (but this main script requires about 10GB for saving result data, please take care before using it)
 
 __\<Environments\>__<br />
-MALBAB R2018b<br />
+MATLAB R2018b<br />
  1. Signal Processing Toolbox
  2. Statics and Machine Learning Toolbox
