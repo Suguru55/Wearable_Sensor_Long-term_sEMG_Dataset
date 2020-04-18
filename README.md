@@ -1,8 +1,8 @@
 # Wearable_Sensor_Long-term_sEMG_Dataset
 
-This code is described in a paper, Are armband sEMG devices dense enough for long-term use?--Sensor
-placement shifts cause significant reduction in recognition accuracy, accepted by <it> Biomedical
-Signal Processing and Control<it /><br />
+This code is described in a paper
+`Are armband sEMG devices dense enough for long-term use?--Sensor placement shifts cause significant reduction in recognition accuracy` 
+accepted by *Biomedical Signal Processing and Control*<br />
 
 You can see very simple online processing for controlling 3D graphics using by this dataset from <a href="https://drive.google.com/file/d/1X7LKOcaBsfopQSHAjnUlRBB9HMoG0Lmt/view?usp=sharing" target="_blank">here (online_processing)</a>.<br />
 In addition, the effect of reattachment is <a href="https://drive.google.com/open?id=1JcXjvT0ijIlekM66pkRsCLoMZKOBFq7v" target="_blank">here (indiscriminable_reattachment)</a>.<br />
