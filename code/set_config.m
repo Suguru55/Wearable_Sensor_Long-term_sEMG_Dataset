@@ -1,9 +1,11 @@
 function struct = set_config
 
 % dir(change your directory)
-struct.data_dir = 'C:\Users\3usgr\Desktop\Wearable_Sensor_Long-term_sEMG_Dataset-master\data';
-struct.code_dir = 'C:\Users\3usgr\Desktop\Wearable_Sensor_Long-term_sEMG_Dataset-master\code';
-struct.save_dir = 'C:\Users\3usgr\Desktop\Wearable_Sensor_Long-term_sEMG_Dataset-master\results';
+your_dir = 'C:\Users\3usgr\Desktop';
+
+struct.data_dir = [your_dir,'\Wearable_Sensor_Long-term_sEMG_Dataset-master\data'];
+struct.code_dir = [your_dir, '\Wearable_Sensor_Long-term_sEMG_Dataset-master\code'];
+struct.save_dir = [your_dir, '\Wearable_Sensor_Long-term_sEMG_Dataset-master\results'];
 
 % parameters
 struct.pos = ['N'; 'I'; 'O'; 'N'; 'I'; 'I'; 'O'; 'O'; 'N'; 'N';...  % 1-10th day 
@@ -15,7 +17,7 @@ struct.pos_label = [1; 2; 3; 1; 2; 2; 3; 3; 1; 1;...
                     3; 2; 3; 2; 2; 1; 1; 2; 1; 3]; % N: 1, I: 2, O: 3
    
 struct.day_num = 30;
-struct.sub_num = 1;
+struct.sub_num = 5;
 struct.mov_num = 22;
 struct.fs = 200;
 struct.process_dur = 1.5;         % analysis window (1.5 s)

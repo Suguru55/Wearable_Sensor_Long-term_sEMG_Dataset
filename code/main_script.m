@@ -1,5 +1,6 @@
-% Preprocessing codes for "Wearable Sensor-based Long-period sEMG Dataset 
-% for 4-DOF Forearm Motion Recognition" [1]
+% Preprocessing codes for "Are armband sEMG devices dense enough for 
+%      long-term use?--Sensor placement shifts cause significant reduction 
+%      in recognition accuracy" [1]
 %
 % Dataset (DxxMxxTx.mat)
 %  A 22-motion dataset including three types of electrode positions (N, I, O) recorded from 5 subjects for 30 days.
@@ -29,28 +30,30 @@
 %          - getwlfeat
 %          - getarfeat
 %    - intraday
-%       - plot_figure3
-%       - plot_firegu4_and_figure5
+%       - plot_firegu6_and_figure7
 %    - interday
 %       - labeling
 %       - interday_recog
-%       - plot_figure6
+%       - plot_figure8
 %    - interday_sub
-%       - plot_figure7
+%       - plot_figure9
 %
 % References:
-%  [1] S. Kanoga, A. Kanemura, "Wearable Sensor-based Long-period sEMG Dataset
-%      for 4-DOF Forearm Motion Recognition," Sensors, 
-%      vol. , no. , pp. , 2019.
+%  [1] S. Kanoga, A. Kanemura, H. Asoh,"Are armband sEMG devices dense enough for 
+%      long-term use?--Sensor placement shifts cause significant reduction 
+%      in recognition accuracy," Biomedical signal processing and control, 
+%      vol. , no. , pp. , 2020.
 %  [2] https://developer.staging.thalmic.com/docs/api_reference/platform/the-sdk.html
 %  [3] Y. Huang et al., ÅgA Gaussian Mixture Model Based Classification Scheme
 %      for Myoelectric Control of Powered Upper Limb Prostheses,Åh IEEE Trans.
 %      Biomed. Eng., vol. 52, no. 11, pp. 1801-1811, Nov. 2005.
 %
-% Suguru Kanoga, 25-March-2019
+% Suguru Kanoga, 19-April-2020
 % Artificial Intelligence Research Center, National Institute of Advanced
 % Industrial Science and Technology (AIST)
 % E-mail: s.kanouga@aist.go.jp
+
+% Caliculation time: About 2 hours (using laptop PC)
 
 %% Clear workspace and add path for loading data
 clear all
@@ -65,6 +68,8 @@ config = set_config;
 
 %% Pre-processing
 % prepares feature vectors F and labels y
+% !! before using this function, you should download getxxxxx.m files 
+% from http://www.sce.carleton.ca/faculty/chan/index.php?page=matlab
 preprocessing(config);
 
 % we will use only FSx.mat (about 40 MB each) from next section
