@@ -33,14 +33,13 @@ This project has four folders:<br />
             - getwlfeat<br />
             - getarfeat<br />
     - intraday<br />
-        - plot_figure3<br />
-        - plot_figure4_and_figure5<br />
+        - plot_figure6_and_figure7<br />
     - interday<br />
         - labeling<br />
         - interday_recog<br />
-        - plot_figure6<br />
+        - plot_figure8<br />
     - interday_sub<br />
-        - plot_figure7<br />
+        - plot_figure9<br />
         
 4. resuts <br />
    this folder will store all results (but this main script requires about 10GB for saving result data, please take care before using it)
