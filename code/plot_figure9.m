@@ -93,4 +93,4 @@ fix.sd.error_i = std(error_fix_i,[],2);
 fix.ave.error_o = mean(error_fix_o,2);
 fix.sd.error_o = std(error_fix_o,[],2);
 
-cd(config.code_dir);s
+cd(config.code_dir);
