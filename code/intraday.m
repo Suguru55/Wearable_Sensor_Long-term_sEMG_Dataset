@@ -90,5 +90,4 @@ cd(config.code_dir);
 
 % visualize the results and apply anova to the number of trials and
 % electrode placements
-plot_figure3(config);
-[tbl, c_intra] = plot_figure4_and_figure5(config);
+[tbl, c_intra] = plot_figure6_and_figure7(config);

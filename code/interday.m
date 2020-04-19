@@ -144,4 +144,4 @@ end
 cd(config.code_dir);
 
 % visualization
-[inc, fix] = plot_figure6(config);
+[inc, fix] = plot_figure8(config);

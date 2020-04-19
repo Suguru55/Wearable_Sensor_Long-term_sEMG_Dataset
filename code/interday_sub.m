@@ -272,4 +272,4 @@ end
 cd(config.code_dir);
 
 % visualization
-[inc_same, fix_same] = plot_figure7(config);
+[inc_same, fix_same] = plot_figure9(config);
