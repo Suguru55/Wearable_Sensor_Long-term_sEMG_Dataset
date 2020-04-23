@@ -44,8 +44,8 @@
 %      in recognition accuracy," Biomedical signal processing and control, 
 %      vol. , no. , pp. , 2020.
 %  [2] https://developer.staging.thalmic.com/docs/api_reference/platform/the-sdk.html
-%  [3] Y. Huang et al., ÅgA Gaussian Mixture Model Based Classification Scheme
-%      for Myoelectric Control of Powered Upper Limb Prostheses,Åh IEEE Trans.
+%  [3] Y. Huang et al., "A Gaussian Mixture Model Based Classification Scheme
+%      for Myoelectric Control of Powered Upper Limb Prostheses," IEEE Trans.
 %      Biomed. Eng., vol. 52, no. 11, pp. 1801-1811, Nov. 2005.
 %
 % Suguru Kanoga, 19-April-2020
