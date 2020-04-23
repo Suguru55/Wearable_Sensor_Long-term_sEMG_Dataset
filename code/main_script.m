@@ -1,8 +1,8 @@
-% Preprocessing codes for "Are armband sEMG devices dense enough for 
-%      long-term use?--Sensor placement shifts cause significant reduction 
-%      in recognition accuracy" [1]
+%% Main script
+%  "Are armband sEMG devices dense enough for long-term use?--Sensor placement
+%   shifts cause significant reduction in recognition accuracy" [1]
 %
-% Dataset (DxxMxxTx.mat)
+% Dataset (DxxMxxTx.csv)
 %  A 22-motion dataset including three types of electrode positions (N, I, O) recorded from 5 subjects for 30 days.
 %  The stimuli were visualized by Myo SDK 0.9.0 [2] and Unity
 %   - # of channels (ch_num)                : 8 electrodes were used as input to the analysis
