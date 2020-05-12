@@ -1,6 +1,6 @@
 # Wearable_Sensor_Long-term_sEMG_Dataset
 
-This code is described in a paper
+This code is described in the paper
 `Are armband sEMG devices dense enough for long-term use?--Sensor placement shifts cause significant reduction in recognition accuracy` 
 accepted by *Biomedical Signal Processing and Control*.<br />
 
