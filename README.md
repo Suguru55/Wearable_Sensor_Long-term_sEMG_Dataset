@@ -1,7 +1,7 @@
 # Wearable_Sensor_Long-term_sEMG_Dataset
 
 This code is described in the paper
-`<a href="https://www.sciencedirect.com/science/article/pii/S1746809420301373" target="_blank">Are armband sEMG devices dense enough for long-term use?--Sensor placement shifts cause significant reduction in recognition accuracy</a>` 
+<a href="https://www.sciencedirect.com/science/article/pii/S1746809420301373" target="_blank">Are armband sEMG devices dense enough for long-term use?--Sensor placement shifts cause significant reduction in recognition accuracy</a>
 accepted by *Biomedical Signal Processing and Control*.<br />
 
 You can see very simple online processing for controlling 3D graphics using by this dataset from <a href="https://drive.google.com/file/d/1X7LKOcaBsfopQSHAjnUlRBB9HMoG0Lmt/view?usp=sharing" target="_blank">here (online_processing)</a>.<br />
